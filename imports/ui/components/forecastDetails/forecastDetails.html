@@ -1,0 +1,22 @@
+<template name="forecastDetails">
+  <main class="main-content">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span>Weather Details</span>
+      </div>
+    </div>
+
+    <div class="fullwidth-block">
+      <div class="container">
+        {{>chartjs}}
+      </div>
+    </div>
+
+  </main>
+  <!-- .main-content -->
+</template>
+
+<template name="chartjs">
+    <canvas id="myChart" ></canvas>
+</template>

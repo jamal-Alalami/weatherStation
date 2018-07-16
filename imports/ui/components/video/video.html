@@ -1,0 +1,39 @@
+<template name="video">
+  <div class="fullwidth-block">
+    <div class="container">
+      <h2 class="section-title">Live cameras</h2>
+      <div class="row">
+        {{#each waethers}}
+        <div class="col-md-3 col-sm-6">
+          <div class="live-camera">
+            <a name="lkr-timelapse-player" data-id="{{id}}" data-play="day" href="https://lookr.com/{{id}}" target="_blank">{{title}}</a><script async type="text/javascript" src="https://api.lookr.com/embed/script/player.js"></script>
+            <h3 class="location">{{title}}</h3>
+            <small class="date">{{date}}</small>
+          </div>
+        </div>
+        {{/each}}
+        <!-- <div class="col-md-3 col-sm-6">
+          <div class="live-camera">
+            <a name="lkr-timelapse-player" data-id="1389559981" data-play="day" href="https://lookr.com/1389559981" target="_blank">Sitges › East: › East: Cataluña − Platja de Aiguadolç</a><script async type="text/javascript" src="https://api.lookr.com/embed/script/player.js"></script>
+            <h3 class="location">Spain - Sitges</h3>
+            <small class="date">{{date}}</small>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="live-camera">
+            <a name="lkr-timelapse-player" data-id="1450823786" data-play="day" href="https://lookr.com/1450823786" target="_blank">Barcelona: Collserola</a><script async type="text/javascript" src="https://api.lookr.com/embed/script/player.js"></script>
+            <h3 class="location">Barcelona</h3>
+            <small class="date">{{date}}</small>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="live-camera">
+            <a name="lkr-timelapse-player" data-id="1496437860" data-play="day" href="https://lookr.com/1496437860" target="_blank">London: Tower Bridge</a><script async type="text/javascript" src="https://api.lookr.com/embed/script/player.js"></script>
+            <h3 class="location">London</h3>
+            <small class="date">{{date}}</small>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</template>

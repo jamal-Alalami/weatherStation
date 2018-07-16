@@ -1,0 +1,13 @@
+<template name="mainNews">
+  <div class="content col-md-8">
+    {{#each articles}}
+    <div class="post">
+      <h2 class="entry-title">{{title}}</h2>
+      <div class="featured-image"><img src="{{urlToImage}}" alt=""></div>
+      <p>{{description}}</p>
+      <a href="{{url}}" class="button" target="_blank">Read more</a>
+    </div>
+    {{/each}}
+
+  </div>
+</template>

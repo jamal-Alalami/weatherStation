@@ -1,0 +1,27 @@
+/*!
+ * Project_Name: Weather
+ * Author: Themezy
+ * Email: contact[at]themezy.com
+ * Url: http://www.themezy.com
+ */
+
+/*===========================================
+ * Importing CSS Libraries
+ *===========================================*/
+ @import 	"sass/libs/settings",
+ 			"sass/libs/mixins",
+ 			"sass/libs/normalize",
+ 			"sass/libs/global",
+ 			"sass/libs/components",
+
+ 			// importing bootstrap grid framework
+ 			"sass/libs/bootstrap-grid/settings",
+ 			"sass/libs/bootstrap-grid/mixins",
+ 			"sass/libs/bootstrap-grid/grid",
+
+			// importing layout styles
+ 			"sass/layout/header",
+ 			"sass/layout/content",
+ 			"sass/layout/sidebar",
+ 			"sass/layout/footer";
+			

@@ -1,0 +1,18 @@
+<template name="scripts">
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/app.js"></script>
+  <!-- JavaScript Includes -->
+  <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+</template>
+
+<template name="homePageLayOut">
+    <div class="site-content">
+      {{> header }}
+      <div class="maibody">
+        {{> yield "mainBody" }}
+      </div>
+      {{> footer }}
+    </div>
+{{>scripts}}
+</template>
